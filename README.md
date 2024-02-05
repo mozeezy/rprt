@@ -9,6 +9,8 @@ This Flask application generates a PDF donation report based on user inputs such
 - PDF generation with ReportLab library.
 - Flask-Bootstrap and Flask-WTF for form styling and validation.
 
+## Product Screenshot
+![main-page](https://github.com/mozeezy/rprt/blob/main/screenshots/main-page.png?raw=true)
 
 ## Installation
 
