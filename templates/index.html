@@ -1,0 +1,13 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}
+Donation Report Generator
+{% endblock %}
+
+{% block content %}
+<div class="container">
+		<h1>RPRT's Report Generator</h1>
+        {{ wtf.quick_form(form, novalidate=True, button_map={"submit": "primary"}) }}
+</div>
+{% endblock %}
