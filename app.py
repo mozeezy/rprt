@@ -30,7 +30,7 @@ def index():
         amount_donated = float(request.form['amount_donated'])
         causes = request.form.getlist("causes")
 
-        output_filename = f"{name.lower()}_donation_report.pdf"
+        output_filename = f"{name.replace(' ', '_').lower()}_donation_report.pdf"
         front_page = cloudinary_url(FRONT_PAGE_PUBLIC_ID, format="png")[0]
         thank_you_page = cloudinary_url(THANK_YOU_PAGE_PUBLIC_ID, format="png")[0]
         final_page = cloudinary_url(FINAL_PAGE_PUBLIC_ID, format="png")[0]

@@ -36,7 +36,7 @@ This Flask application generates a PDF donation report based on user inputs such
 
 5. **Run the application:**
    ```bash
-   python main.py
+   python app.py
    ```
 
 ## Usage
